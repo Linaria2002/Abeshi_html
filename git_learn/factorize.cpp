@@ -9,15 +9,15 @@ int main(){
   else if(n < 0) cout << "Don't type a negative integer!" << endl;
   else{
     cout << n << " = ";
-    for(i=2; i*i < n; i++){
-      while(n%i == 0){
+    for(i=2; i*i <= n; i++){
+      while(n % i == 0){
         n /= i;
         if(not1st) cout << " * ";
 	else not1st = true;
 	cout << i;
       }
     }
-    if(n != 1) cout << " * " << i;
+    if(n != 1) cout << " * " << n;
     cout << endl;
   }
   
