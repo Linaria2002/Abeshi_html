@@ -19,7 +19,7 @@ int main(){
 	cout << i;
       }
     }
-    if(i != 1) cout << " * " << i;
+    if(n != 1) cout << " * " << i;
     cout << endl;
   }
   
