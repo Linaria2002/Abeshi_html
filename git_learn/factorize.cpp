@@ -20,7 +20,7 @@ int main(){
     if(n != 1){
 	if(not1st) cout << " * ";
         cout << n;
-	if(!not1st) cout << "(prime)" << endl;
+        if(not1st) cout << "(prime)";
     }
     cout << endl;
   }
