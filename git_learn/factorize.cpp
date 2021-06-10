@@ -12,10 +12,8 @@ int main(){
     for(i=2; i*i < n; i++){
       while(n%i == 0){
         n /= i;
-        if(not1st){
-            cout << " * ";
-	    not1st = true;
-	}
+        if(not1st) cout << " * ";
+	else not1st = true;
 	cout << i;
       }
     }
