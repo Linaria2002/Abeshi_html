@@ -17,7 +17,10 @@ int main(){
 	cout << i;
       }
     }
-    if(n != 1) cout << " * " << n;
+    if(n != 1){
+	if(not1st) cout << " * ";
+        cout << n;
+    }
     cout << endl;
   }
   
